@@ -21,4 +21,4 @@ echo 'src-git-full packages https://github.com/immortalwrt/packages.git;openwrt-
 echo 'src-git-full luci https://github.com/Super-member/immortalwrt-luci.git;openwrt-21.02' >>feeds.conf.default
 echo 'src-git-full routing https://github.com/openwrt/routing.git;openwrt-21.02' >>feeds.conf.default
 echo 'src-git-full telephony https://github.com/openwrt/telephony.git;openwrt-21.02' >>feeds.conf.default
-echo 'src-git wiwiz https://github.com/wiwizcom/WiFiPortal' >>feeds.conf.default                                          #拼拼wifi
+echo 'src-git wiwiz https://github.com/wiwizcom/WiFiPortal.git' >>feeds.conf.default                                          #拼拼wifi
