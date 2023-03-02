@@ -19,6 +19,4 @@
 
 echo 'src-git-full lucs https://github.com/Super-member/immortalwrt-luci.git;openwrt-21.02' >>feeds.conf.default
 
-
-#拼拼wifi
-echo 'src-git wiwiz https://github.com/wiwizcom/WiFiPortal.git' >>feeds.conf.default                                          
+                                          
