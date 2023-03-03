@@ -20,5 +20,6 @@
 echo 'src-git-full lucs https://github.com/Super-member/immortalwrt-luci.git;openwrt-18.06-k5.4' >>feeds.conf.default
 
                                           
-
+# 设置闭源驱动开机自启
+sed -i '2a ifconfig rai0 up\nifconfig ra0 up\nbrctl addif br-lan rai0\nbrctl addif br-lan ra0' package/base-files/files/etc/rc.local
 
