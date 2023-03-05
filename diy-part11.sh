@@ -21,5 +21,5 @@ echo 'src-git-full lucs https://github.com/Super-member/immortalwrt-luci.git;ope
 
                                           
 # 设置闭源驱动开机自启
-sed -i 's/bin/sleep 60/sbin/mtkwifi reload' package/base-files/files/etc/rc.local
+sed -i '3a /bin/sleep 60 /sbin/mtkwifi reload' package/base-files/files/etc/rc.local
 
