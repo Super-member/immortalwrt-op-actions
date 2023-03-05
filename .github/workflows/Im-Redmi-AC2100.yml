@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name:Im-Redmi AC2100
+name: Im-Redmi AC2100
 
 on:
   repository_dispatch:
